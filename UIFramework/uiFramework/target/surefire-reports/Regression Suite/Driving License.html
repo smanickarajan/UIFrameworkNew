@@ -1,0 +1,105 @@
+<html>
+<head>
+<title>TestNG:  Driving License</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Driving License</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Aug 16 13:01:40 BST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>39 seconds (39844 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.uiFramework.ust.experian.testScripts.DrivingLicenseQueries.InvalidDOB()'><b>InvalidDOB</b><br>Test class: com.uiFramework.ust.experian.testScripts.DrivingLicenseQueries<br>Test method: Verifying the DL process configuration with Invalid DOB<br>Parameters: {processconfig=Driving Licence Only, dlnumberintials=Matches details provided., sex=Male, ruletriggered=Default return, DL Number=PANER608298A99AT, testname=InvalidDOB_1, title=Mr, dlnumberscore=FAIL, message=The applicant has not been authenticated to your required minimum level based on the rules implemented in the selected query. You should seek other proofs of identity before dealing with this applicant., dlnumberdob=Does not match details provided., dlnumberlength=Valid, result=notauthenticated, forename=Anthony, surname=Panergo, dob=28/08/1968, dlnumbersurname=Matches details provided.}<br/>
+<a href="#Output-1357984916" onClick='toggleBox("Output-1357984916", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1357984916" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1357984916">
+InvalidDOB Test Started..<br/>
+InvalidDOB Test Passed..<br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>com.uiFramework.ust.experian.testScripts.DrivingLicenseQueries@5b275dab</td></tr>
+<tr>
+<td title='com.uiFramework.ust.experian.testScripts.DrivingLicenseQueries.ValidDLCheck()'><b>ValidDLCheck</b><br>Test class: com.uiFramework.ust.experian.testScripts.DrivingLicenseQueries<br>Test method: Verifying the DL process configuration with Valid DL number<br>Parameters: {processconfig=Driving Licence Only, dlnumberintials=Matches details provided., sex=Male, ruletriggered=DL, DL Number=PANER608288A99AT, testname=ValidDLCheck_1, title=Mr, dlnumberscore=PASS, message=The applicant has been authenticated to your required minimum level based on the rules implemented in the selected query., dlnumberdob=Matches details provided., dlnumberlength=Valid, result=authenticated, forename=Anthony, surname=Panergo, dob=28/08/1968, dlnumbersurname=Matches details provided.}<br/>
+<a href="#Output-207366788" onClick='toggleBox("Output-207366788", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-207366788" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-207366788">
+ValidDLCheck Test Started..<br/>
+ValidDLCheck Test Passed..<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.uiFramework.ust.experian.testScripts.DrivingLicenseQueries@5b275dab</td></tr>
+</table><p>
+</body>
+</html>

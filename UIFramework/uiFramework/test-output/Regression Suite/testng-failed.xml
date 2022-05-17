@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <listeners>
+    <listener class-name="com.uiFramework.ust.experian.helper.listener.ExtentListener"/>
+  </listeners>
+  <test name="Bank Wizard(failed)">
+    <classes>
+      <class name="com.uiFramework.ust.experian.testScripts.BankWiazrdQueries">
+        <methods>
+          <include name="BWAccClosed" invocation-numbers="1"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.uiFramework.ust.experian.testScripts.BankWiazrdQueries -->
+    </classes>
+  </test> <!-- Bank Wizard(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

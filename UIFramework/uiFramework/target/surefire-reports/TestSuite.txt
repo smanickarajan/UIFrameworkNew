@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 2, Errors: 0, Skipped: 17, Time elapsed: 3.474 sec <<< FAILURE! - in TestSuite
+beforeTest(com.uiFramework.ust.experian.testScripts.BankWiazrdQueries)  Time elapsed: 3.059 sec  <<< FAILURE!
+java.lang.NullPointerException: Name is null
+
+beforeTest(com.uiFramework.ust.experian.testScripts.DrivingLicenseQueries)  Time elapsed: 3.06 sec  <<< FAILURE!
+java.lang.NullPointerException: Name is null
+
